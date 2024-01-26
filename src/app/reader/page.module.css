@@ -1,0 +1,15 @@
+.readerText {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.word {
+    cursor: pointer;
+}
