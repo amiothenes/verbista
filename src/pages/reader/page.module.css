@@ -1,0 +1,31 @@
+.readerText {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.word {
+    cursor: pointer;
+}
+
+.word:hover {
+    background-color: #e6e6e6;
+}
+
+.wordBox {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 100px;
+}
