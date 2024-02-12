@@ -5,13 +5,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1 className={styles.titleName}>Verbista</h1>
+      <div className={styles.buttonContainer}>
       <button className={styles.button}>Vocab List</button>
-      <Link href="/textlist">
-        <button className={styles.button}>Text List</button>
-      </Link>
-      <Link href="/reader">
-        <button className={styles.button}>Reader</button>
-      </Link>
+        <Link href="/textlist">
+          <button className={styles.button}>Text List</button>
+        </Link>
+        <Link href="/reader">
+          <button className={styles.button}>Reader</button>
+        </Link>
+      </div>
     </main>
   );
 }

@@ -1,10 +1,10 @@
 'use client'; //stephen is a nerd, and he wants to use strict mode because he's a nerd
+import '../../app/globals.css'
 
 import {useState, useEffect, useRef} from 'react';
 import Link from 'next/link';
 import styles from "./page.module.css";
 import fs from 'fs';
-import path from 'path';
 import getTranslation from './getTranslation';
 
 export default function Reader({text}) {

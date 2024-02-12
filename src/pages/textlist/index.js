@@ -12,9 +12,12 @@ export default function TextList({ texts }) {
                     <button>Home</button>
                 </Link>
             </div>
-            <div>
+            <div className={styles.textsContainer}>
                 {texts.map((text, index) => (
-                    <div key={index} className={styles.indivText}>{text}</div>
+                    <div key={index} className={styles.indivText}>
+                        <h2 className={styles.textTitle}>{text.title}</h2>
+                        <p className={styles.textDes}>{text.description}</p>
+                    </div>
                 ))}
             </div>
         </div>
